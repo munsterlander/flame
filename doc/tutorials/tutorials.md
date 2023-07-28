@@ -8,8 +8,11 @@ The following are tutorials that are maintained with every release of Flame.
 - [](klondike/klondike.md) -- in this tutorial, we will build the Klondike
   solitaire card game.
 
-- [](platformer/platformer.md) -- in this tutorial, we will build Ember Quest, a simple
-  side-scrolling platformer.
+- [](ember_quest/ember_quest.md) -- in this tutorial, we will build Ember Quest, a simple
+  infinite side-scrolling platformer.
+
+- [](ember_quest_tiled/ember_quest_tiled.md) -- in this tutorial, we will convert Ember Quest to use
+  Tiled and the `flame_tiled` package as well as use traditional levels.
 
 - [](space_shooter/space_shooter.md) -- in this tutorial, we will build Space Shooter, a classic
   top-down shooting game.
@@ -19,6 +22,7 @@ The following are tutorials that are maintained with every release of Flame.
 
 Bare Flame game   <bare_flame_game.md>
 Klondike          <klondike/klondike.md>
-Ember Quest       <platformer/platformer.md>
+Ember Quest       <ember_quest/ember_quest.md>
+Ember Quest Tiled <ember_quest_tiled/ember_quest_tiled.md>
 Space Shooter     <space_shooter/space_shooter.md>
 ```
