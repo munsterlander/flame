@@ -3,7 +3,7 @@ import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 import 'package:flutter/material.dart';
 
-import '../ember_quest.dart';
+import '../ember_quest_tiled.dart';
 
 class Star extends SpriteComponent with HasGameRef<EmberQuestGame> {
   final Vector2 gridPosition;
@@ -42,9 +42,7 @@ class Star extends SpriteComponent with HasGameRef<EmberQuestGame> {
   void update(double dt) {
     velocity.x = game.objectSpeed;
     position += velocity * dt;
-    if (position.x < -size.x || game.health <= 0) {
-      removeFromParent();
-    }
+
     super.update(dt);
   }
 }

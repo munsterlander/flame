@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../ember_quest.dart';
+import '../ember_quest_tiled.dart';
 
 class GameOver extends StatelessWidget {
   // Reference to parent game.

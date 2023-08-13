@@ -2,7 +2,7 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 
-import '../ember_quest.dart';
+import '../ember_quest_tiled.dart';
 
 class WaterEnemy extends SpriteAnimationComponent
     with HasGameRef<EmberQuestGame> {
@@ -47,9 +47,6 @@ class WaterEnemy extends SpriteAnimationComponent
   void update(double dt) {
     velocity.x = game.objectSpeed;
     position += velocity * dt;
-    if (position.x < -size.x || game.health <= 0) {
-      removeFromParent();
-    }
     super.update(dt);
   }
 }

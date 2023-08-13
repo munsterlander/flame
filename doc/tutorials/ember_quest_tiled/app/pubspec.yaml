@@ -1,5 +1,5 @@
-name: ember_quest
-description: A tutorial on how to create a basic side scrolling platformer using the Flame game engine for Flutter.
+name: ember_quest_tiled
+description: A tutorial on how to create a basic side scrolling platformer using the Flame game engine and Tiled for Flutter.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   flame: ^1.8.0
+  flame_tiled: ^1.13.0
   flutter:
     sdk: flutter
 

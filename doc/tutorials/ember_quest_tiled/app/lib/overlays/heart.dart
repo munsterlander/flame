@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
 
-import '../ember_quest.dart';
+import '../ember_quest_tiled.dart';
 
 enum HeartState {
   available,
