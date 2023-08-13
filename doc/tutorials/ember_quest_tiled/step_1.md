@@ -19,6 +19,9 @@ documentation](https://doc.mapeditor.org) is an excellent resource for beginners
 additional information in the [flame_tiled](../../bridge_packages/flame_tiled/flame_tiled.md) and
 [tiled](../../bridge_packages/flame_tiled/tiled.md) section of the Flame docs.
 
-With the initial setup out of the way, let's [begin building our maps](step_2.md)!
-
 [Tiled]: https://www.mapeditor.org/
+
+
+## Time to Begin
+
+With the initial setup out of the way, let's [begin building our maps](step_2.md)!

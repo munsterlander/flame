@@ -14,7 +14,8 @@ leave the `Type` as `Collection of Images` as we will be importing the existing 
 ![Tiled - New Tileset](../../images/tutorials/ember_quest_tiled/new_tileset.jpg)
 
 Create a new folder called `tiles` in the `assets` folder and save your tileset there.  Add the
-`block`,`ember`,`ground`,`star`, and `water_enemy` sprites to the tileset by using the `+` button.
+`block`, `ember`, `ground`, `star`, and `water_enemy` sprites to the tileset by using the `+`
+button.
 
 ![Tiled - Add Assets](../../images/tutorials/ember_quest_tiled/add_tiles.jpg)
 
